@@ -1,3 +1,2 @@
-#!/bin/bash
-Test notes exam 
+#!/bin/bash Test notes exam 
 book students teachers
