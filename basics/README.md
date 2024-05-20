@@ -1,2 +1,2 @@
-#!/bin/bash Test notes exam 
+Test notes exam 
 book students teachers
