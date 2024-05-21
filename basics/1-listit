@@ -1,2 +1,2 @@
- movies documents songs 
-files food clothes
+#!/bin/bash
+ls
