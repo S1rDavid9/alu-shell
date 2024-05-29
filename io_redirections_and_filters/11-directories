@@ -1,2 +1,2 @@
 #!/bin/bash
-tree -ad | tail -1
+find . -type d -not -same '.' | wc -1
