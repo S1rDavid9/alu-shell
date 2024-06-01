@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
-# A for-loops that displays "Best School" 10 times
-while (( i=0; "i<10; i++ ")) 
+# A while-do loop displaying "Best School" 10 times
+count=0
+while [ $count -lt 10 ]
 do
   echo "Best School"
+  (( count++ ))
 done
