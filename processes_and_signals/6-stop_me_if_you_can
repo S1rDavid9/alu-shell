@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# kills the infinity beyond process
+# Cannot use kill or killall
+
+# Terminate the infinte process
+pkill -15 "bash ./4-to_infinity_and_beyond" -f
