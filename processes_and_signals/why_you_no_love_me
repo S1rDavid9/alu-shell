@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# This script displays why you no love me indefinitely
+# With a sleep 2 in between each interation 
+# I am invincible!!! when receiving a SIGTERM signal
+
+trap 'echo "I am invincible!!!"' 15
+while true; do
+          echo "Why you no love me"
+          sleep 2
+done
