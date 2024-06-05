@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# WHy you no love me
 
 # Trap SIGINT signal to display message
 trap 'echo "Y U no love me?!"' SIGINT
@@ -8,7 +9,7 @@ trap 'echo "I hate the kill command";
 rm -f /var/run/myscript.pid; exit 0' SIGTERM
 
 # Trap SIGQUIT signal to terminate itself
-trap 'rm -f /var/run/myscript.pid; exit 0'
+trap 'rm -f /var/run/myscript.pid; exit 0' SIGQUIT
 
 # Get the PID of the script
 echo $$ > /var/run/myscript.pid
